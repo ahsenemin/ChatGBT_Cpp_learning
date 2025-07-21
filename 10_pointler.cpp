@@ -20,7 +20,7 @@ void swapPointer(int *ptr1 , int *ptr2){
 
 int main()
 {
-    /* 
+    
     char *p;
     float *fp;
     double *dp;
@@ -119,7 +119,7 @@ int main()
     swapPointer(&sayi1,&sayi2);
 
     cout << "Swap Sonrası: x = " << sayi1 << " y = " << sayi2 << endl;
-    */
+    
 
     
 
