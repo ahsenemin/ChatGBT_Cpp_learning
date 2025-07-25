@@ -1,0 +1,2 @@
+Ögrencinin ID: 3456 Adı: murat GNO: 3.33 Bölüm: ybs
+Ögrencinin ID: 230 Adı: Ahsen GNO: 3.21 Bölüm: btbs
