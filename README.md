@@ -1,33 +1,77 @@
-# C++ Öğrenme Süreci
+<!-- Başlık ve Logo Bölümü -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="C++ Logo" width="120"/>
+</p>
 
-Bu repo, C++ dilini öğrenirken yazdığım temel kodları ve alıştırmaları içermektedir. Her bir dosya, C++'ın farklı bir konusunu ele almaktadır.
+<h1 align="center">🚀 C++ Öğrenme Serüveni</h1>
+<p align="center">
+  <b>Modern C++ ile Temelden İleriye Kodlama Alıştırmaları</b>
+</p>
 
-## Proje Dosyaları ve İçerikleri
+---
 
-- **1_helloWorld.cpp:** Ekrana "Merhaba Dünya" ve benzeri metinleri yazdıran temel C++ programı.
-- **2_degiskenler.cpp:** `int`, `float`, `char`, `bool`, `string` gibi temel veri tiplerinin kullanımını ve kullanıcıdan `cin` ile veri almayı gösteren örnekler.
-- **3_operatorler.cpp:** Aritmetik (`+`, `-`, `*`, `/`, `%`) ve karşılaştırma (`==`, `!=`, `<`, `>`) operatörlerinin kullanımını içeren alıştırmalar.
-- **4_kosul_Ifadeler.cpp:** `if-else` ve `switch-case` yapılarıyla koşullu durumların nasıl yönetileceğini gösteren örnekler (sıcaklık durumuna göre yorum yapma, basit hesap makinesi).
-- **5_donguler.cpp:** `for`, `while` ve `do-while` döngülerinin kullanımını gösteren alıştırmalar (çift/tek sayıları bulma, kullanıcıdan belirli bir koşul sağlanana kadar veri alma).
-- **6_diziler.cpp:** Tek boyutlu dizilerin (`int notlar[5]`) nasıl tanımlandığını, elemanlarına nasıl erişildiğini ve diziler üzerinde temel işlemlerin (ortalama hesaplama, en büyük/en küçük elemanı bulma) nasıl yapıldığını gösteren örnekler.
-- **7_stringler.cpp:** `string` veri tipi, `getline` ile satır okuma, `length()`, `find()`, `substr()` gibi temel string fonksiyonlarının kullanımı ve stringler üzerinde döngü ile işlem yapma.
-- **8_cok_Boyutlu_Diziler.cpp:** İki boyutlu dizilerin (matrislerin) nasıl tanımlandığını, iç içe döngülerle nasıl işlendiğini ve matris toplama gibi temel işlemlerin nasıl yapıldığını gösteren örnekler.
-- **9_0_fonksiyonlar.cpp:** Fonksiyonların nasıl tanımlandığını (prototip, parametreli/parametresiz, geriye değer döndüren/döndürmeyen) ve nasıl çağrıldığını gösteren temel örnekler.
-- **9_1_hesapMak.cpp:** Fonksiyonları kullanarak modüler bir hesap makinesi programı.
-- **9_2_faktöriyel.cpp:** Faktöriyel hesaplayan bir fonksiyon örneği.
+## 📚 Hakkında
 
-## Nasıl Derlenir ve Çalıştırılır?
+Bu depo, <b>C++</b> dilini öğrenirken yazdığım temel kodları ve alıştırmaları içermektedir. Her bir dosya, C++'ın farklı bir konusunu ele almaktadır. Kodlar, yeni başlayanlardan ileri seviyeye kadar herkes için uygundur.
 
-Her bir `.cpp` dosyasını aşağıdaki gibi derleyip çalıştırabilirsiniz:
+---
+
+## 🗂️ Dosya ve Konu Listesi
+
+| 📄 Dosya Adı                  | 📝 Konu Açıklaması |
+|-------------------------------|-------------------|
+| <img src="https://img.icons8.com/color/24/000000/console.png"/> <b>1_helloWorld.cpp</b> | Merhaba Dünya ve temel çıktı |
+| <img src="https://img.icons8.com/color/24/000000/variable.png"/> <b>2_degiskenler.cpp</b> | Temel veri tipleri ve giriş |
+| <img src="https://img.icons8.com/color/24/000000/plus-minus.png"/> <b>3_operatorler.cpp</b> | Operatörler |
+| <img src="https://img.icons8.com/color/24/000000/decision.png"/> <b>4_kosul_Ifadeler.cpp</b> | Koşul ifadeleri |
+| <img src="https://img.icons8.com/color/24/000000/loop.png"/> <b>5_donguler.cpp</b> | Döngüler |
+| <img src="https://img.icons8.com/color/24/000000/list.png"/> <b>6_diziler.cpp</b> | Diziler |
+| <img src="https://img.icons8.com/color/24/000000/text.png"/> <b>7_stringler.cpp</b> | String işlemleri |
+| <img src="https://img.icons8.com/color/24/000000/matrix.png"/> <b>8_cok_Boyutlu_Diziler.cpp</b> | Çok boyutlu diziler |
+| <img src="https://img.icons8.com/color/24/000000/function.png"/> <b>9_0_fonksiyonlar.cpp</b> | Fonksiyonlar |
+| <img src="https://img.icons8.com/color/24/000000/calculator.png"/> <b>9_1_hesapMak.cpp</b> | Hesap makinesi |
+| <img src="https://img.icons8.com/color/24/000000/percent.png"/> <b>9_2_faktöriyel.cpp</b> | Faktöriyel fonksiyonu |
+| ... | ... |
+
+> 📁 <i>Tüm dosyalar için klasör içeriğine göz atabilirsiniz.</i>
+
+---
+
+## ⚙️ Nasıl Derlenir ve Çalıştırılır?
 
 ```bash
-g++ dosya_adi.cpp -o program_adi
-./program_adi
+# Derleme
+$ g++ dosya_adi.cpp -o program_adi
+# Çalıştırma
+$ ./program_adi
 ```
 
-Örneğin, `1_helloWorld.cpp` dosyasını derlemek için:
-
+Örnek:
 ```bash
 g++ 1_helloWorld.cpp -o hello
 ./hello
 ```
+
+---
+
+## 🤝 Katkı Sağlamak
+
+Her türlü katkıya açığım! Yeni örnekler, hata düzeltmeleri veya iyileştirmeler için <b>pull request</b> gönderebilirsiniz.
+
+---
+
+## 📝 Lisans
+
+Bu proje MIT lisansı ile lisanslanmıştır.
+
+---
+
+## 👨‍💻 İletişim
+
+Her türlü soru ve öneriniz için bana ulaşabilirsiniz:
+- E-posta: <b>ahseneminyorulmaz@gmail.com</b>
+- GitHub: [@ahseneminyorulmaz](https://github.com/ahseneminyorulmaz)
+
+<p align="center">
+  <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" width="48"/>
+</p>
